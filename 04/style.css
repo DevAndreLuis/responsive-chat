@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font: 62.5%;
+}
+
+body {
+  background-color: #1a1924;
+  font-size: 1.6rem;
+  color: white;
+}
+body * {
+  border: 1px solid red;
+}
+
+#app {
+  /* padding: 24px 32px; */
+  padding: 2.4rem 3.2rem;
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+}
+
+
