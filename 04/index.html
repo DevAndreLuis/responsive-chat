@@ -2,21 +2,69 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chat</title>
   <link rel="stylesheet" href="./style.css" type="">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 
 <body>
   <div id="app">
 
-    <div id="top">A</div>
-    <div id="messages">B
-    </div>
-    <div id="bottom">C</div>
+    <div id="top">
+      <div id="user-info">
+        <img src="./Assets/Images/pikachusPerfil.jpg"
+          alt="imagem do pikachu usando o boné do ash que é seu treinador, o pikachu está segurando uma pokebola e está sentado"
+          class="teste" />
 
-  </div>
+        <div id="user-status">
+          <strong class="teste">Pikachu do Ash</strong>
+          <div class="status">
+            <p> Online</p>
+          </div>
+        </div>
+      </div>
+      <div id="close-chat"><i class="ph ph-x"></i></div>
+    </div>
+    <div id="messages">
+      <div id="last-seen">Hoje 11:30</div>
+      <div class="messages">
+        <div class="message">
+          <div class="top">Ash - 11:30</div>
+          <div class="body">Hoje eu capturei um pokémon</div>
+        </div>
+        <div class="message you">
+          <div class="top">Pikachu - 11:31</div>
+          <div class="body">Qual Deles? eitaaa</div>
+        </div>
+        <div class="message">
+          <div class="top">Ash - 11:36</div>
+          <div class="body">Um Charizard kkk \o/</div>
+        </div>
+        <div class="message you">
+          <div class="top">Pikachu - 12:21</div>
+          <div class="body">Charizard é forte , meu novo amigo ! valeu ASH!</div>
+        </div>
+      </div>
+
+    </div>
+    <div id="bottom">
+      <form action="">
+        <div class="input-wrapper">
+          <input type="text" placeholder="Digite sua mensagem">
+          <button>
+            <i class="ph ph-paper-plane-right"></i>
+          </button>
+        </div>
+      </form>
+
+    </div>
 </body>
 
 </html>
